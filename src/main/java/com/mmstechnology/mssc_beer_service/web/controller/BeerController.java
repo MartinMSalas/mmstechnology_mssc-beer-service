@@ -29,7 +29,7 @@ public class BeerController {
         return new ResponseEntity<>(beerRecord, HttpStatus.OK);
     }
 
-    @PostMapping
+    @PostMapping("")
     public ResponseEntity<BeerRecord> saveNewBeer(@RequestBody BeerRecord beerRecord){
 
         BeerRecord beerRecordFromDb = beerService.createBeer(beerRecord);

@@ -10,7 +10,7 @@ import java.util.UUID;
 
 
 @Builder
-public record BeerRecord(UUID id, Integer version, OffsetDateTime createdDate, OffsetDateTime lastModifiedDate,
+public record BeerRecord(UUID beerId, Integer version, OffsetDateTime createdDate, OffsetDateTime lastModifiedDate,
                          String beerName, BeerStyleEnum beerStyle, Long upc, BigDecimal price, Integer quantityOnHand){
 
 }

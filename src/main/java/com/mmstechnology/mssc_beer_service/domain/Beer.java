@@ -46,6 +46,7 @@ public class Beer {
     private BigDecimal price;
     private Integer quantityOnHand;
     private Integer minOnHand;
+    private Integer maxOnHand;
     private Integer quantityToBrew;
 
     // Additional fields and methods can be added as needed
